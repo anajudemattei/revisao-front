@@ -1,0 +1,39 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .name {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  .price {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .stars {
+    color: #f5c518;
+    font-size: 16px;
+  }
