@@ -5,6 +5,7 @@
     padding: 20px;
     margin-bottom: 30px;
     font-family: 'PT Serif', serif;
+    border-bottom: 1px solid white;
 }
 
 .header h1 {

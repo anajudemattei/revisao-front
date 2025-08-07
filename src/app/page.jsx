@@ -6,15 +6,10 @@ import styles from './page.module.css';
 
 export default function HomePage() {
   const [products, setProducts] = useState([]);
-  const [productCount, setProductCount] = useState(0);
 
   useEffect(() => {
     setProducts(productsData);
   }, []);
-
-  useEffect(() => {
-    setProductCount(products.length);
-  }, [products]);
 
   return (
     <div className={styles.products}>
